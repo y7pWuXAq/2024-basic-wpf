@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ex07_EmployeeMngApp.Models
 {
-    public class Employess
+    public class Employees
     {
         public int Id { get; set; }
         public string EmpName { get; set; }
@@ -18,25 +18,25 @@ namespace ex07_EmployeeMngApp.Models
                                                             , [EmpName]
                                                             , [Salary]
                                                             , [DeptName]
-                                                            , [Address]
+                                                            , [Addr]
                                                          FROM [dbo].[Employees]";
 
         public static readonly string INSERT_QUERY = @"INSERT INTO [dbo].[Employees]
                                                             ( [EmpName]
                                                             , [Salary]
                                                             , [DeptName]
-                                                            , [Address])
+                                                            , [Addr])
                                                        VALUES
                                                             ( @EmpName
                                                             , @Salary
                                                             , @DeptName
-                                                            , @Address)";
+                                                            , @Addr)";
 
         public static readonly string UPDEATE_QUERY = @"UPDATE [dbo].[Employees]
                                                            SET [EmpName] = @EmpName
                                                              , [Salary] = @Salary
                                                              , [DeptName] = @DeptName
-                                                             , [Address] = @Address
+                                                             , [Addr] = @Addr
                                                          WHERE Id = @Id";
 
         public static readonly string DELETE_QUERY = @"DELETE FROM [dbo].[Employees] WHERE Id = @Id";
