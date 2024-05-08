@@ -127,9 +127,11 @@
 
 - Movie API 연동 앱, MovieFinder 2024
     - DB(SQLServrer) 연동
-    - MahApps.Metro
-    - OpenAPI 두가지 사용
+    - MahApps.Metro UI
+    - CefSharp WebBrowser 패키지
+    - Google.Apis 패키지
     - MVVM은 시간 부족으로 생략
+    - OpenAPI 두가지 사용
     - 좋아하는 영화 즐겨찾기 앱
     - [TMDB](https://www.themoviedb.org/) OpenAPI 활용
         - 회원가입 후 API 신청
@@ -146,3 +148,21 @@
 
 
 ### DAY 06
+
+- MovieFinder 2024
+    - 즐겨찾기 후 다시 선택 안되도록 수정
+    - 즐겨찾기 삭제 구현
+    - 그리드뷰 영화를 더블클릭 시 영화소개 팝업
+
+
+### DAY 07
+
+- MovieFinder 2024 마무리
+
+- 데이터 포털 API 연동앱 예제
+    - 5월 13일 개인프로젝트 참조소스
+
+
+### DAY 08
+
+- WPF 개인프로젝트 포트폴리오 작업
