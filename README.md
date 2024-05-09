@@ -161,7 +161,7 @@
 - MovieFinder 2024 완성!
 
 
-
+https://github.com/y7pWuXAq/2024-basic-wpf/assets/158008080/bc6c82db-2ae9-4cf9-96b6-02af1eb96339
 
 
 
