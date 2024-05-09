@@ -57,7 +57,7 @@
         - View : 화면, 순수 xaml로만 구성
         - ViewModel : 뷰에 대한 메서드, 액션, INotifyPropertyChanged를 구현
 
-
+    ![MVVM 페턴](https://raw.githubusercontent.com/y7pWuXAq/2024-basic-wpf/main/images/wpf001.png)
 
 
     - 권장 구현 방법
