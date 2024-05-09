@@ -162,8 +162,6 @@
 
 
 
-https://github.com/y7pWuXAq/2024-basic-wpf/assets/158008080/24042bf6-684d-43ad-bf7b-1f0a806ebdb8
-
 
 
 
