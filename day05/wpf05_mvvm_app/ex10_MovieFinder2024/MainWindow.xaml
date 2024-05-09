@@ -60,7 +60,8 @@
         <!-- 검색결과 영역-->
         <DataGrid x:Name="GrdResult" Grid.Row="1" Grid.Column="0" Margin="5"
                   IsReadOnly="True" ItemsSource="{Binding}"
-                  Style="{StaticResource MahApps.Styles.DataGrid.Azure}" 
+                  Style="{StaticResource MahApps.Styles.DataGrid.Azure}"
+                  MouseDoubleClick="GrdResult_MouseDoubleClick"
                   SelectedCellsChanged="GrdResult_SelectedCellsChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Title}" Header="한글제목" FontWeight="Bold" />
@@ -77,7 +78,7 @@
                       mah:HeaderedControlHelper.HeaderFontSize="14"
                       mah:HeaderedControlHelper.HeaderFontWeight="Bold"
                       mah:HeaderedControlHelper.HeaderHorizontalContentAlignment="Center">
-                <Image x:Name="ImgPost" Source="No_Picture.png" Margin="15,5" />
+                <Image x:Name="ImgPoster" Source="No_Picture.png" Margin="15,5" />
             </GroupBox>
         </Grid>
 
