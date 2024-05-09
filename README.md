@@ -157,7 +157,14 @@
 
 ### DAY 07
 
-- MovieFinder 2024 마무리
+- MovieFinder 2024 완성!
+
+
+
+https://github.com/y7pWuXAq/2024-basic-wpf/assets/158008080/24042bf6-684d-43ad-bf7b-1f0a806ebdb8
+
+
+
 
 
 - 데이터 포털 API 연동앱 예제
