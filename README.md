@@ -131,6 +131,7 @@
     - MahApps.Metro UI
     - CefSharp WebBrowser 패키지
     - Google.Apis 패키지
+    - Newtonsoft.Json 패키지
     - MVVM은 시간 부족으로 생략
     - OpenAPI 두가지 사용
     - 좋아하는 영화 즐겨찾기 앱
@@ -161,13 +162,14 @@
 - MovieFinder 2024 완성!
 
 
-https://github.com/y7pWuXAq/2024-basic-wpf/assets/158008080/bc6c82db-2ae9-4cf9-96b6-02af1eb96339
-
-
+    https://github.com/y7pWuXAq/2024-basic-wpf/assets/158008080/bc6c82db-2ae9-4cf9-96b6-02af1eb96339
 
 
 - 데이터 포털 API 연동앱 예제
-    - 5월 13일 개인프로젝트 참조소스
+    - CefSharp 사용시 프로젝트 > 속성 > 빌드 > 플랫폼 대상 Any CPU > x64로 변경 필수!
+    - MahApps.Metro UI, IconPacks
+    - Newtonsoft.Json
+    - 개인프로젝트 참조소스 찾기
 
 
 ### DAY 08
