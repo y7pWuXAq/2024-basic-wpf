@@ -28,5 +28,35 @@ namespace A_trip_to_Busan
         {
             InitializeComponent();
         }
+
+        private void MetroWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TxtSearchName_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void BtnSerch_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnSaveData_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnViewData_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("하이");
+        }
+
+        private void GrdResult_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }
