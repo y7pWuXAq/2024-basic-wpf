@@ -1,5 +1,6 @@
-## WPF 윈폼 개발학습
-2024년 IoT 개발자 WPF 리포지토리
+## 2024-basic-wpf
+IoT 개발자과정 WPF 학습 리포지토리
+
 
 
 ### DAY 01
@@ -33,6 +34,7 @@
         - xaml 형식 : {Binding Path=속성, ElemenrName=객체, Mode=(OneWay | TowWay), StringFormat={}{0:#,#}}
         - dataContext : 데이터를 담아서 전달하는 이름
         - 전통적인 윈폼 코드비하인드에서 데이터를 처리하는 것을 지양! : 디자인, 개발 부분 분리하기 위해서
+
 
 
 ### DAY 03
@@ -88,6 +90,7 @@
         - Xaml 디자인 : Views 폴더에 있는 Xaml 파일을 디자인 작업
 
 
+
 ### DAY 04
 
 - Caliburn.Micro
@@ -112,6 +115,7 @@
 
 
     ![실행화면](https://raw.githubusercontent.com/y7pWuXAq/2024-basic-wpf/main/images/wpf002.png)
+
 
 
 ### DAY 05
@@ -149,12 +153,14 @@
             - 4. OAuth Client ID, 앱 유형을 데스크톱 앱, 이름 입력 후 만들기
 
 
+
 ### DAY 06
 
 - MovieFinder 2024
     - 즐겨찾기 후 다시 선택 안되도록 수정
     - 즐겨찾기 삭제 구현
     - 그리드뷰 영화를 더블클릭 시 영화소개 팝업
+
 
 
 ### DAY 07
