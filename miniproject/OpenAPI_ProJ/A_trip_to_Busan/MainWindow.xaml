@@ -7,7 +7,7 @@
     xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
     xmlns:iconPack="http://metro.mahapps.com/winfx/xaml/iconpacks"
     mc:Ignorable="d"
-    Title="Busan Travel Information" Height="450" Width="800" MinHeight="300" MinWidth="600" Loaded="MetroWindow_Loaded">
+    Title="Busan Travel Information" Height="450" Width="800" MinHeight="300" MinWidth="600" >
 
     <mah:MetroWindow.IconTemplate>
         <DataTemplate>
@@ -57,9 +57,9 @@
                         </Button.ContentTemplate>
                     </Button>
 
-                    <Button x:Name="BtnSaveData" FontSize="12" Content="저장" Width="80" Margin="5,10" 
+                    <Button x:Name="BtnInfoData" FontSize="12" Content="정보" Width="80" Margin="5,10" 
                             Style="{StaticResource MahApps.Styles.Button.Square.Accent}"
-                            Click="BtnSaveData_Click">
+                            Click="BtnInfoData_Click">
                         <Button.ContentTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
@@ -70,7 +70,7 @@
                         </Button.ContentTemplate>
                     </Button>
 
-                    <Button x:Name="BtnViewData" FontSize="12" Content="보기" Width="80" Margin="0,10"
+                    <Button x:Name="BtnViewData" FontSize="12" Content="위치" Width="80" Margin="0,10"
                             Style="{StaticResource MahApps.Styles.Button.Square.Highlight}"
                             Click="BtnViewData_Click">
                         <Button.ContentTemplate>
